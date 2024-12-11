@@ -1,0 +1,72 @@
+Analyses and Insights
+1. Price vs Number of Subscribers
+Correlation Coefficient: A negative or low correlation suggests that price and the number of subscribers may not be strongly related.
+Insights: Free courses typically have more subscribers, but price does not always directly influence subscriptions.
+
+2. Top 10 Courses by Number of Subscribers
+Insights: The top 10 courses are usually free or affordable and cover popular subjects like programming, data science, or web development.
+
+3. Price Distribution
+Insights: Most courses are priced between $10 and $50, with a significant clustering around $20. This reflects Udemy's pricing strategy to attract a broad audience.
+
+4. Most Common Course Levels
+Insights: Beginner-level courses dominate the platform, indicating a high demand for foundational learning materials.
+
+5. Subjects Analysis
+Insights: Popular subjects like "Web Development" or "Business Finance" have the highest number of courses, reflecting their demand in the market.
+
+Analysis of Summary Statistics for Key Numeric Columns
+The summary statistics provide an overview of the dataset's numerical features: price, num_subscribers, num_reviews, and content_duration. Here's the interpretation of each:
+
+1. Price
+Count: Total number of courses analyzed.
+Mean: The average price of courses.
+Std: The standard deviation indicates the variability of course prices. High variability suggests a wide range of pricing.
+Min: The lowest-priced course, likely free.
+25% (Q1): 25% of the courses are priced below this value.
+50% (Median): Half the courses are priced below this value, giving insight into the central tendency of prices.
+75% (Q3): 75% of the courses are priced below this value.
+Max: The highest-priced course.
+Insight:
+If the minimum is 0, free courses are included.
+A significant difference between Q1 and Q3 suggests skewness in pricing, potentially due to promotional strategies or niche content.
+
+2. Number of Subscribers
+Count: Total courses with subscriber data.
+Mean: Average number of subscribers per course.
+Std: High standard deviation suggests a few courses dominate in popularity.
+Min: The least-subscribed course has zero subscribers.
+25%, 50%, 75% (Quartiles): The distribution of subscriber counts. A significant difference between Q3 and Q1 indicates high variability.
+Max: The most-subscribed course.
+Possible Insight:
+High variability and a skewed distribution might indicate that a few courses attract the majority of users (e.g., popular or free courses).
+3. Number of Reviews
+Count: Total courses with review data.
+Mean: Average number of reviews per course.
+Std: High standard deviation indicates significant differences in user engagement.
+Min, Q1, Q3, Max: Provide a range of user engagement levels.
+Possible Insight:
+
+Similar to subscribers, a skewed review distribution suggests that top courses receive disproportionately higher engagement.
+4. Content Duration
+Count: Total courses with duration information.
+Mean: Average course duration in hours.
+Std: A high standard deviation suggests varying course lengths.
+Min: The shortest course duration.
+Max: The longest course duration.
+
+Insight:
+Courses with higher durations might cater to advanced topics, while shorter ones are likely introductory or specific.
+
+General Observations
+Correlation Between Variables:
+- Free or low-priced courses might attract more subscribers.
+- Courses with high subscriber counts may have higher review counts.
+- Duration may or may not influence subscribers or reviews, depending on the target audience.
+
+Price Clustering:
+- Low-priced or free courses may dominate, reflecting the common Udemy pricing strategy of offering discounts or promotions.
+
+Engagement Metrics:
+- The top courses (in subscribers or reviews) are outliers that drive the platform’s popularity.
+
